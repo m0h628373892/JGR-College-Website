@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Values & Impact | JGR College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" style="text-align: right; padding-right: 40px;">&times; Close</a>
+        <a href="index.html">Home</a>
+        <a href="syllabus.html">Syllabus</a>
+        <a href="headteacher.html">Headteacher</a>
+        <a href="values.html">Values & Impact</a>
+    </div>
+    <button class="open-btn" onclick="openNav()">&#9776;</button>
+
+    <header>
+        <h1>VALUES & IMPACT</h1>
+        <p>Upholding the Path of the Pious Predecessors</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Our Core Values</h2>
+            <p>Our foundation is built upon the methodology (Manhaj) of the Ahlus Sunnah wal Jama'ah. Our teachings are strictly in line with the doctrine set by <strong>Imam Ahmed Rida Khan</strong> and the pious predecessors.</p>
+        </section>
+
+        <section class="card" style="border-top: 5px solid var(--emerald);">
+            <h2>Our Global Impact</h2>
+            <p>The success of JGR College is measured by its fruits. By the grace of Allah Almighty, our graduates are now serving as:</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
+                <span style="background: var(--gold); color: white; padding: 5px 15px; border-radius: 20px;">Leading Scholars</span>
+                <span style="background: var(--emerald); color: white; padding: 5px 15px; border-radius: 20px;">Community Imams</span>
+                <span style="background: var(--gold); color: white; padding: 5px 15px; border-radius: 20px;">Teachers of Deen</span>
+            </div>
+            <p style="margin-top: 20px;">You will find our alumni across the <strong>North West</strong>, leading masjids and nurturing the faith of the next generation.</p>
+        </section>
+    </main>
+
+    <script>
+        function openNav() { document.getElementById("mySidebar").style.width = "100%"; }
+        function closeNav() { document.getElementById("mySidebar").style.width = "0"; }
+    </script>
+</body>
+</html>
