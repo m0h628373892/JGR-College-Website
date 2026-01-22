@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headteacher | JGR College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" style="text-align: right; padding-right: 40px;">&times; Close</a>
+        <a href="index.html">Home</a>
+        <a href="syllabus.html">Syllabus</a>
+        <a href="headteacher.html">Headteacher</a>
+        <a href="values.html">Values & Impact</a>
+    </div>
+    <button class="open-btn" onclick="openNav()">&#9776;</button>
+
+    <header>
+        <h1>LEADERSHIP</h1>
+        <p>Guided by Experience and Scholarship</p>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <div style="border-left: 5px solid var(--gold); padding-left: 20px;">
+                <h2>Our Headteacher</h2>
+                <p style="font-size: 1.2rem; margin-top: 15px;">A Graduate of <strong>Al Jamia Ashrafiyah Mubarakpur</strong>.</p>
+            </div>
+            <p style="margin-top: 20px;">With over 25 years of teaching experience, our Headteacher is a recognized master of the Islamic sciences. His journey in the deen has allowed him to mentor many students in Fiqh, Hadith, Tafsir, and the intricacies of Arabic Grammar.</p>
+            
+            <div style="background: var(--cream); padding: 20px; border-radius: 10px; margin-top: 30px;">
+                <h3 style="color: var(--emerald);">Expertise In:</h3>
+                <p>• Islamic Jurisprudence (Fiqh) <br> • Prophetic Traditions (Hadith) <br> • Qur'anic Exegesis (Tafsir) <br> • Linguistic Mastery (Grammar)</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function openNav() { document.getElementById("mySidebar").style.width = "100%"; }
+        function closeNav() { document.getElementById("mySidebar").style.width = "0"; }
+    </script>
+</body>
+</html>
