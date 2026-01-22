@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus | JGR College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" style="text-align: right; padding-right: 40px;">&times; Close</a>
+        <a href="index.html">Home</a>
+        <a href="syllabus.html">Syllabus</a>
+        <a href="headteacher.html">Headteacher</a>
+        <a href="values.html">Values & Impact</a>
+    </div>
+
+    <button class="open-btn" onclick="openNav()">&#9776;</button>
+
+    <header>
+        <h1>OUR SYLLABUS</h1>
+        <p>A rigorous path through the Classical Sciences</p>
+    </header>
+
+    <main class="container">
+        <div class="syllabus-grid">
+            <div class="card">
+                <h2>Fiqh</h2>
+                <ul>
+                    <li>Nur ul Idah</li><li>Quduri</li><li>Usul al Shashi</li><li>Sharh Al Wiqayah</li><li>Hidayah</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Hadith</h2>
+                <ul>
+                    <li>Mukhtasar Riyadh al Saliheen</li><li>Mishkaat al Masabih</li><li>Muwatta Imam Muhammad</li><li>Sahih al Bukhari</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Arabic Grammar</h2>
+                <ul>
+                    <li>Imdad ul Nahw & Sarf</li><li>Nahw Mir</li><li>Hidayahtun Nahw</li><li>Kafiyah</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Tafsir</h2>
+                <p><strong>Primary Text:</strong> Tafsir al Jalalayn</p>
+                <p style="margin-top:10px; font-size: 0.9rem; color: #666;">Deep exegesis focusing on classical understanding.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer><p>&copy; 2026 JGR College</p></footer>
+
+    <script>
+        function openNav() { document.getElementById("mySidebar").style.width = "100%"; }
+        function closeNav() { document.getElementById("mySidebar").style.width = "0"; }
+    </script>
+</body>
+</html>
